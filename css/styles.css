@@ -101,6 +101,12 @@ button {
     border: 2px solid #E5E7EB;
 }
 
+#log-in {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 700;
+}
+
 #background {
     background-image: url("../img/background.jpg");
     background-position: center;
