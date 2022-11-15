@@ -84,6 +84,15 @@ body {
     margin-top: 40px;
 }
 
+#content-form input[type="password"].error {
+    border: 2px solid red;
+}
+
+input,
+button {
+    border: 2px solid #E5E7EB;
+}
+
 #background {
     background-image: url("../img/background.jpg");
     background-position: center;
@@ -135,9 +144,4 @@ body {
 
 #sign-up {
     width: 60vw;
-}
-
-input,
-button {
-    border: 2px solid #E5E7EB;
 }
