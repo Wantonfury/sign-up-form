@@ -68,6 +68,12 @@ body {
     border-radius: 10px;
     background-color: #596D48;
     color: white;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+#content-footer button:hover {
+    transform: scale(1.025);
 }
 
 #content-footer {
