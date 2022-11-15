@@ -16,7 +16,7 @@
         </div>
         <div id="sign-up">
             <div id="header">
-                <h2>This is not a real online service! you know you need something like this in your life to help you
+                <h2>This is not a real online service! You know you need something like this in your life to help you
                     realize your deepest dreams.<br>
                     Sign up <i>now</i> to get started.
                 </h2>
@@ -28,32 +28,44 @@
                         <h2 class="title">Let's do this!</h2>
                         
                         <div id="user-name">
-                            <label for="first-name">FIRST NAME</label>
-                            <input type="text" id="first-name" name="user_first_name" required>
+                            <div class="arrange-vertical">
+                                <label for="first-name">FIRST NAME</label>
+                                <input type="text" id="first-name" name="user_first_name" required>
+                            </div>
                             
-                            <label for="last-name">LAST NAME</label>
-                            <input type="text" id="last-name" name="user_last_name" required>
+                            <div class="arrange-vertical">
+                                <label for="last-name">LAST NAME</label>
+                                <input type="text" id="last-name" name="user_last_name" required>
+                            </div>
                         </div>
                         
                         <div id="user-contact">
-                            <label for="email">EMAIL</label>
-                            <input type="email" id="email" name="user_email" required>
-                            
-                            <label for="phone">PHONE NUMBER</label>
-                            <input type="text" id="phone" name="user_phone" required>
+                            <div class="arrange-vertical">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="user_email" required>
+                            </div>
+                                
+                            <div class="arrange-vertical">
+                                <label for="phone">PHONE NUMBER</label>
+                                <input type="tel" id="phone" name="user_phone" required>
+                            </div>
                         </div>
                         
                         <div id="user-password">
-                            <label for="pwd">PASSWORD</label>
-                            <input type="password" id="pwd" name="user_password" required>
-                            
-                            <label for="pwd-confirm">PHONE NUMBER</label>
-                            <input type="password" id="pwd-confirm" required>
+                            <div class="arrange-vertical">
+                                <label for="pwd">PASSWORD</label>
+                                <input type="password" id="pwd" name="user_password" required>
+                            </div>
+                                
+                            <div class="arrange-vertical">
+                                <label for="pwd-confirm">CONFIRM PASSWORD</label>
+                                <input type="password" id="pwd-confirm" required>
+                            </div>
                         </div>
                     </div>
                     
                     <div id="content-footer">
-                        <button type="submit">Submit</button>
+                        <button type="submit">Create Account</button>
                         <p>Already have an account? <a href="#">Log in</a></p>
                     </div>
                 </form>
